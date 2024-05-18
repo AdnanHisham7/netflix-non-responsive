@@ -1,0 +1,371 @@
+body{
+font-family: arial;
+margin: 0px;
+zoom: 106%;
+background-color: rgb(0, 0, 0);
+overflow-x: hidden;
+}
+
+.main-page{
+background: url("./assets/1707673893296.png");
+height:1350px;
+width:2800px;
+}
+
+.netflix-logo{
+width:50%;
+float :left;
+}
+
+.home-settings{
+width: 50%;
+float:left;
+}
+
+.lang-list{
+padding-left: 750px;
+padding-top: 30px;
+}
+
+.list-box{
+background: none;
+color:white;
+padding-left: 45px;
+padding-right: 4px;
+padding-top: 18px;
+padding-bottom: 18px;
+font-size: 30px;
+border-color: gray;
+border-radius: 8px;
+border-style: solid;
+cursor: pointer;
+transition: opacity 0.15s;
+}
+
+.list-box:hover{
+opacity: 0.8;
+}
+
+.nonselected-options{
+color: black;
+}
+
+.sign-in-button{
+margin-left: 25px;
+padding-left: 45px;
+padding-right: 45px;
+padding-top: 18px;
+padding-bottom: 18px	;
+font-size: 30px;
+font-weight: bold;
+border: none;
+border-radius: 8px;
+background-color: rgb(250,0,50);
+color:white;
+cursor: pointer;
+transition: opacity 0.15s;
+}
+
+.sign-in-button:hover{
+opacity: 0.8;
+}
+
+.home-vertical{
+height: 40%;
+float:down;
+}
+
+.home-content{
+height: 60%;
+float:down;
+}
+
+.heading{
+font-weight: bold;
+color: white;
+font-size: 120px;
+}
+
+.sub-heading{
+color: white;
+font-size: 34px;
+margin-top: 38px;
+}
+
+.form-intro{
+color: white;
+font-size: 34px;
+margin-top: 38px;
+}
+
+.email-box{
+background-color: rgba(40,42,35,0.5);
+color: white;
+padding-left: 30px;
+padding-right: 400px;
+padding-top: 30px;
+padding-bottom: 30px;
+margin-top: 30px;
+border-radius: 8px;
+font-size: 30px;
+border-style: solid;
+}
+
+.get-button{
+background-color: rgb(250,0,40);
+color: white;
+border: none;
+border-radius: 8px;
+padding-left: 50px;
+padding-right: 50px;
+padding-top: 30px;
+padding-bottom: 30px;
+margin-top: 30px;
+margin-left:10px;
+font-size: 30px;
+}
+
+.get-button:hover{
+opacity: 0.8;
+}
+
+.hr{
+background-color: rgb(40,42,35);
+height: 20px;
+width: 2800px;
+margin-top: 0px;
+margin-bottom: 0px;
+border:none;
+}
+
+.sub-page{
+width: 2800px;
+background-color: black;
+height:1100px;
+margin-top: 0px;
+}
+
+.text-part{
+width: 60%;
+float:left;
+}
+
+.image-part{
+height: 40%;
+float:left;
+}
+
+.inner-heading{
+color:  white;
+font-weight: bold;
+font-size: 125px;
+margin-top: 300px;
+margin-left: 140px;
+}
+
+.inner-sub-heading{
+color:  white;
+font-size: 75px;
+margin-top: 100px;
+margin-left: 140px;
+width: 1200px;
+}
+
+.first-page-image{
+margin-top: 150px;	
+}
+
+.second-inner-heading{
+margin-left:150px;
+color: white;
+font-weight: bold;
+font-size: 125px;
+margin-top: 250px;
+width:100%;
+}
+
+.second-inner-sub-heading{
+color:  white;
+font-size: 75px;
+margin-top: 100px;
+margin-left: 150px;
+width: 1200px;
+}
+
+.second-page-image{
+margin-top: 150px;
+margin-left: 250px;
+height: 600px;
+width: 800px;;
+	
+}
+
+.third-page-image{
+margin-top: 250px;
+}
+
+.fourth-page-image{
+margin-top: 250px;
+margin-left: 250px;
+height: 600px;
+width: 800px;;
+	
+}
+.freq-heading{
+font-weight: bold;
+color: white;
+font-size: 100px;
+padding-top: 150px;
+margin-bottom:60px;
+}
+
+.foot-sub-page{
+background-color: black;
+height:1700px;
+width: 2800px;
+margin-top: 0px;
+}
+
+.q-1{
+color: white;
+background-color: rgb(40,42,35);
+padding-top: 30px;
+padding-bottom: 30px;
+padding-right: 1860px;
+margin-left: 100px;
+margin-right: 200px;
+font-size: 75px;
+margin-bottom:20px;
+}
+
+.q-2{
+color: white;
+background-color: rgb(40,42,35);
+padding-top: 30px;
+padding-bottom: 30px;
+padding-right: 1400px;
+margin-left: 100px;
+margin-right: 200px;
+font-size: 75px;
+margin-bottom:20px;
+}
+
+.q-3{
+color: white;
+background-color: rgb(40,42,35);
+padding-top: 30px;
+padding-bottom: 30px;
+padding-right: 1700px;
+margin-left: 100px;
+margin-right: 200px;
+font-size: 75px;
+margin-bottom:20px;
+}
+
+.q-4{
+color: white;
+background-color: rgb(40,42,35);
+padding-top: 30px;
+padding-bottom: 30px;
+padding-right: 1800px;
+margin-left: 100px;
+margin-right: 200px;
+font-size: 75px;
+margin-bottom:20px;
+}
+
+.q-5{
+color: white;
+background-color: rgb(40,42,35);
+padding-top: 30px;
+padding-bottom: 30px;
+padding-right: 1400px;
+margin-left: 100px;
+margin-right: 200px;
+font-size: 75px;
+margin-bottom:20px;
+}
+
+
+.q-6{
+color: white;
+background-color: rgb(40,42,35);
+padding-top: 30px;
+padding-bottom: 30px;
+padding-right: 1600px;
+margin-left: 100px;
+margin-right: 200px;
+font-size: 75px;
+margin-bottom:20px;
+}
+
+.q-1:hover{
+background-color: rgb(90,92,75);
+}
+.q-2:hover{
+background-color: rgb(90,92,75);
+}
+.q-3:hover{
+background-color: rgb(90,92,75);
+}
+.q-4:hover{
+background-color: rgb(90,92,75);
+}
+.q-5:hover{
+background-color: rgb(90,92,75);
+}
+.q-6:hover{
+background-color: rgb(90,92,75);
+}
+
+.footer-form-intro{
+color: white;
+font-size: 34px;
+margin-top:100px;
+}
+
+.footer{
+background-color: black;
+height:800px;
+width: 2800px;
+margin-top: 0px;
+}
+
+.first-part{
+width:25%;
+font-size:45px;
+color: white;
+float:left;
+}
+
+.second-part{
+width:25%;
+font-size:45px;
+color: white;
+float:left;
+}
+
+.third-part{
+width:25%;
+font-size:45px;
+color: white;
+float:left;
+}
+
+.fourth-part{
+width:25%;
+font-size:45px;
+color: white;	
+float:left;
+}
+
+.help{
+font-size:45px;
+color: white;	
+padding-top:100px;
+}
+
+.foot-lang-list{
+padding-right: 1500px;
+padding-left: 40px;
+}
